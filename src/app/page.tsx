@@ -1,55 +1,26 @@
 import React from "react";
-import Link from "next/link";
+import About from "./components/About";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center">
-      <nav className="w-full p-4 flex justify-between items-center bg-gray-800 shadow-md">
-        <h1 className="text-2xl font-bold">Sarthak</h1>
-        <div>
-          <Link href="#projects" className="mx-2 hover:underline">
-            Projects
-          </Link>
-          <Link href="#contact" className="mx-2 hover:underline">
-            Contact
-          </Link>
-        </div>
-      </nav>
-
+    <div className="min-h-screen bg-black-900 text-white flex flex-col items-center">
       <header className="text-center my-16">
-        <h2 className="text-4xl font-bold">
-          Hi, I&apos;m Sarthak Lav Chaudhary
-        </h2>
-        <p className="text-lg mt-4">
-          A Software Engineer specializing in react, javascript, typescript.
-        </p>
-      </header>
-
-      <section id="projects" className="w-3/4 my-16">
-        <h3 className="text-3xl font-semibold">Projects</h3>
-        <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="p-4 bg-gray-800 rounded-lg shadow-md">
-            <h4 className="text-xl font-semibold">Project</h4>
-            <p className="mt-2">Listing soon... Loading...</p>
-            <a
-              href="#"
-              className="text-blue-400 hover:underline mt-2 inline-block"
-            >
-              View Project
-            </a>
-          </div>
-          <div className="p-4 bg-gray-800 rounded-lg shadow-md">
-            <h4 className="text-xl font-semibold">Project</h4>
-            <p className="mt-2">Listing soon... Loading...</p>
-            <a
-              href="#"
-              className="text-blue-400 hover:underline mt-2 inline-block"
-            >
-              View Project
-            </a>
+        <div className="relative flex min-h-full w-full flex-col items-center justify-center">
+          <div className="relative flex items-center justify-center py-3">
+            <h1 className="relative flex-1">
+              <span className="grid grid-cols-2">
+                <span className="block text-center text-sm opacity-90">
+                  Hello Wolrd ! {"      "} I AM
+                </span>
+              </span>{" "}
+              <span className=" z-10 block text-[calc(1.825rem+6.9vw)] font-bold leading-none">
+                Sarthak
+              </span>
+            </h1>
           </div>
         </div>
-      </section>
+      </header>
+      <About />
 
       <section id="contact" className="w-3/4 my-16">
         <h3 className="text-3xl font-semibold">Contact Me</h3>
