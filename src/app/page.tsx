@@ -25,7 +25,6 @@ export default function Home() {
       <section id="contact" className="w-3/4 my-16">
         <h3 className="text-3xl font-semibold">Contact Me</h3>
         <p className="mt-1">Email: lavsarthak@gmail.com</p>
-        <p className="mt-1">Email: sarthakchaudhary52@gmail.com</p>
         <p className="mt-2">
           LinkedIn:{" "}
           <a
