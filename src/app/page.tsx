@@ -3,7 +3,7 @@ import About from "./components/About";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-black-900 text-white flex flex-col items-center">
+    <div className="min-h-screen bg-black text-white flex flex-col items-center">
       <header className="text-center my-16">
         <div className="relative flex min-h-full w-full flex-col items-center justify-center">
           <div className="relative flex items-center justify-center py-3">
