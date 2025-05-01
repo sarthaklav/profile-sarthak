@@ -10,7 +10,7 @@ export default function Home() {
             <h1 className="relative flex-1">
               <span className="grid grid-cols-2">
                 <span className="block text-center text-sm opacity-90">
-                  Hello Wolrd ! {"      "} I AM
+                  Hello World ! {"      "} I AM
                 </span>
               </span>{" "}
               <span className=" z-10 block text-[calc(1.825rem+6.9vw)] font-bold leading-none">
